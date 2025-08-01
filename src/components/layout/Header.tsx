@@ -4,6 +4,7 @@ import { NAV_ITEMS } from '../../data/portfolio';
 import { useTheme } from '../../hooks/useTheme';
 import { useScrollSpy } from '../../hooks/useScrollSpy';
 
+
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -64,9 +65,9 @@ const Header: React.FC = () => {
           <button
             onClick={toggleTheme}
             className="p-2 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
-            aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
+            aria-label={`Switch to ${theme === 'dark' ? 'light' : 'right'} mode`}
           >
-            {theme === 'light' ? (
+            {theme === 'dark' ? (
               <Moon size={20} />
             ) : (
               <Sun size={20} />

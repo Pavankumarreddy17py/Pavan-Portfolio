@@ -6,7 +6,8 @@ export interface NavItem {
 export interface Skill {
   name: string;
   level: number;
-  category: 'frontend' | 'backend' | 'design' | 'tools';
+  catagory:'all' | 'frontend' | 'backend' | "databases"|"API" |"data Visualization & Analysis"| 'ai & Machine Learning' | 'data analyst' |'tools'
+  // category: 'frontend' | 'backend' | 'design' | 'tools';
 }
 
 export interface Project {

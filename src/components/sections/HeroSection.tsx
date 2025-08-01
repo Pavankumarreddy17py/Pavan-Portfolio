@@ -1,3 +1,5 @@
+
+
 import React, { useEffect, useState } from 'react';
 import { ArrowDown } from 'lucide-react';
 import { HERO_DATA } from '../../data/portfolio';
@@ -42,7 +44,7 @@ const HeroSection: React.FC = () => {
               isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}
           >
-            {HERO_DATA.description}
+            {/* {HERO_DATA.description} */}
           </p>
           
           <div 
@@ -68,8 +70,6 @@ const HeroSection: React.FC = () => {
       >
         <ArrowDown size={24} />
       </a>
-      
-      
     </section>
   );
 };
