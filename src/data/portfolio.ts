@@ -255,5 +255,5 @@ export const CONTACT_DATA = {
   title: 'Get In Touch',
   email: 'vaddemanipavanreddy2020@gmail.com',
   // phone: '+91 8328647704',
-  location: 'kadapa, AP, India',
+  location: 'pulivendula, kadapa, AP, India',
 };
