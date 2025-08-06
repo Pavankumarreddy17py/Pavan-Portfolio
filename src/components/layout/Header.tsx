@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Moon, Sun } from 'lucide-react';
 import { NAV_ITEMS } from '../../data/portfolio';
@@ -65,7 +66,7 @@ const Header: React.FC = () => {
           <button
             onClick={toggleTheme}
             className="p-2 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
-            aria-label={`Switch to ${theme === 'dark' ? 'light' : 'right'} mode`}
+            aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
           >
             {theme === 'dark' ? (
               <Moon size={20} />

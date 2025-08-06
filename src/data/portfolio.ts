@@ -250,7 +250,7 @@ export const EXPERIENCES: Experience[] = [
     id: '2',
     role: 'Python / Python Django r',
     company: 'ExcelR Edtech Pvt. Ltd.',
-    period: 'August 2024 - July 2024',
+    period: 'june 2024 - July 2024',
     description: 'Developed responsive web applications for various clients. Collaborated with designers to implement pixel-perfect interfaces and optimize user experience.',
     technologies: ['Python', 'Django', 'Regex', 'MySQL'],
   },
@@ -271,13 +271,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     platform: 'Email',
     url: 'mailto:pavankumarvaddemani7@gmail.com',
     icon: 'Mail',
-    
-  },
-    {
-    platform: 'LeetCode',
-    url: 'https://leetcode.com/u/Pavankumarreddy63/',
-    icon: 'e-font',
-  },
+  }
 
 ];
 
